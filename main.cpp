@@ -2,13 +2,11 @@
 #include "Generator.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    std::string fileName = "test1";
+    std::string size = "SMALL";
 
-    Generator generator(Generator::MEDIUM);
-    std::cout << "Array generado con " <<generator.SMALL << " elementos." << std::endl;
-
-    std::cout << "Imprimiendo array generado: " << std::endl;
-    generator.printArray();
+    Generator generator(size, fileName);
+    std::cout << "Array generado y guardado en " << fileName << ".bin con " << generator.getArray().size() << " elementos." << std::endl;
 
     return 0;
 }
