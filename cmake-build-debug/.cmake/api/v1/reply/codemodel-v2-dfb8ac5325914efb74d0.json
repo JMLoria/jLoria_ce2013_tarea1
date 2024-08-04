@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CE2103_Tarea1_JoseManuelLoria",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CE2103_Tarea1_JoseManuelLoria::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CE2103_Tarea1_JoseManuelLoria-Debug-59d353b49df9a211ede6.json",
+					"name" : "CE2103_Tarea1_JoseManuelLoria",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug",
+		"source" : "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/CE2103-Tarea1-JoseManuelLoria"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
