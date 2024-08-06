@@ -3,7 +3,7 @@ project(CE2103_Tarea1_JoseManuelLoria)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(CE2103_Tarea1_JoseManuelLoria
+add_executable(CE2103_Tarea1_JoseManuelLoria main.cpp
         Generator.cpp
         Generator.h
         Page.cpp

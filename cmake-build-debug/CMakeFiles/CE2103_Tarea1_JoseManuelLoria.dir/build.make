@@ -69,24 +69,10 @@ include CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/flags.make
 
-CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/flags.make
-CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o: /home/jose/Documents/TEC/II\ Semestre\ -\ 2024/CE2103\ Datos\ II/Tareas/CE2103-Tarea1-JoseManuelLoria/main.cpp
-CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o -MF CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o.d -o CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o -c "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/main.cpp"
-
-CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/main.cpp" > CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.i
-
-CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/main.cpp" -o CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.s
-
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/flags.make
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o: /home/jose/Documents/TEC/II\ Semestre\ -\ 2024/CE2103\ Datos\ II/Tareas/CE2103-Tarea1-JoseManuelLoria/Generator.cpp
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o -MF CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o.d -o CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o -c "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/Generator.cpp"
 
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.i: cmake_force
@@ -100,7 +86,7 @@ CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.s: cmake_force
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/flags.make
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o: /home/jose/Documents/TEC/II\ Semestre\ -\ 2024/CE2103\ Datos\ II/Tareas/CE2103-Tarea1-JoseManuelLoria/Page.cpp
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o -MF CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o.d -o CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o -c "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/Page.cpp"
 
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.i: cmake_force
@@ -114,7 +100,7 @@ CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.s: cmake_force
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/flags.make
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o: /home/jose/Documents/TEC/II\ Semestre\ -\ 2024/CE2103\ Datos\ II/Tareas/CE2103-Tarea1-JoseManuelLoria/PagedArray.cpp
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o -MF CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o.d -o CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o -c "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/PagedArray.cpp"
 
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.i: cmake_force
@@ -127,7 +113,6 @@ CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.s: cmake_force
 
 # Object files for target CE2103_Tarea1_JoseManuelLoria
 CE2103_Tarea1_JoseManuelLoria_OBJECTS = \
-"CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o" \
 "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o" \
 "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o" \
 "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o"
@@ -135,13 +120,12 @@ CE2103_Tarea1_JoseManuelLoria_OBJECTS = \
 # External object files for target CE2103_Tarea1_JoseManuelLoria
 CE2103_Tarea1_JoseManuelLoria_EXTERNAL_OBJECTS =
 
-CE2103_Tarea1_JoseManuelLoria: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o
 CE2103_Tarea1_JoseManuelLoria: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o
 CE2103_Tarea1_JoseManuelLoria: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o
 CE2103_Tarea1_JoseManuelLoria: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o
 CE2103_Tarea1_JoseManuelLoria: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/build.make
 CE2103_Tarea1_JoseManuelLoria: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable CE2103_Tarea1_JoseManuelLoria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CE2103_Tarea1_JoseManuelLoria"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
