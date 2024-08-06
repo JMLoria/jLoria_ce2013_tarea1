@@ -177,6 +177,30 @@ Page.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/build.make CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.s
 .PHONY : Page.cpp.s
 
+PagedArray.o: PagedArray.cpp.o
+.PHONY : PagedArray.o
+
+# target to build an object file
+PagedArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/build.make CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o
+.PHONY : PagedArray.cpp.o
+
+PagedArray.i: PagedArray.cpp.i
+.PHONY : PagedArray.i
+
+# target to preprocess a source file
+PagedArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/build.make CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.i
+.PHONY : PagedArray.cpp.i
+
+PagedArray.s: PagedArray.cpp.s
+.PHONY : PagedArray.s
+
+# target to generate assembly for a file
+PagedArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/build.make CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.s
+.PHONY : PagedArray.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... Page.o"
 	@echo "... Page.i"
 	@echo "... Page.s"
+	@echo "... PagedArray.o"
+	@echo "... PagedArray.i"
+	@echo "... PagedArray.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/Generator.cpp" "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o" "gcc" "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o.d"
   "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/Page.cpp" "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o" "gcc" "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o.d"
+  "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/PagedArray.cpp" "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o" "gcc" "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o.d"
   "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/main.cpp" "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o" "gcc" "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o.d"
   )
 

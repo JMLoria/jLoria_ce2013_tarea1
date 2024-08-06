@@ -94,6 +94,12 @@
 		<Unit filename="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/Page.h">
 			<Option target="CE2103_Tarea1_JoseManuelLoria"/>
 		</Unit>
+		<Unit filename="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/PagedArray.cpp">
+			<Option target="CE2103_Tarea1_JoseManuelLoria"/>
+		</Unit>
+		<Unit filename="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/PagedArray.h">
+			<Option target="CE2103_Tarea1_JoseManuelLoria"/>
+		</Unit>
 		<Unit filename="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/main.cpp">
 			<Option target="CE2103_Tarea1_JoseManuelLoria"/>
 		</Unit>

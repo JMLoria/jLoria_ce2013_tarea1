@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o.d"
   "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o"
   "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o.d"
+  "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o"
+  "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/PagedArray.cpp.o.d"
   "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o"
   "CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o.d"
 )
