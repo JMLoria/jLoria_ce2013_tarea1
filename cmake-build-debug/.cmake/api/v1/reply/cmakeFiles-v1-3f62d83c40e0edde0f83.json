@@ -54,6 +54,21 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
+			"path" : "/home/jose/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeFindCodeBlocks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/jose/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/jose/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/ProcessorCount.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
 			"path" : "/home/jose/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.28/Modules/CMakeCInformation.cmake"
 		},
 		{
@@ -130,8 +145,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug",
-		"source" : "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/CE2103-Tarea1-JoseManuelLoria"
+		"build" : "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug",
+		"source" : "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria"
 	},
 	"version" : 
 	{

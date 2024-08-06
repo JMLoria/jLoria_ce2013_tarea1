@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/main.cpp.o CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Generator.cpp.o CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/Page.cpp.o -o CE2103_Tarea1_JoseManuelLoria 

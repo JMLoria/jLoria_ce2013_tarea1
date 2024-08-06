@@ -1,11 +1,12 @@
-#ifndef GENERATOR_H
-#define GENERATOR_H
+#ifndef CE2103_TAREA1_JOSEMANUELLORIA_GENERATOR_H
+#define CE2103_TAREA1_JOSEMANUELLORIA_GENERATOR_H
 
 #include <vector>
 #include <iostream>
 #include <ctime>
-#include <fstream>
 #include <stdexcept>
+
+#include <fstream>
 #include <filesystem>
 
 class Generator {
@@ -15,19 +16,17 @@ public:
     const std::vector<int>& getArray() const;
 
 private:
-    enum Size : std::size_t {
-        SMALL = 512ull * (1024 * 512),
-        MEDIUM = 1024ull * (1024 * 512),
-        LARGE = 2ull * 1024 * (1024 * 512)
+    enum SIZE : std::size_t {
+        SMALL = 512ull * (1024 * 1024),
+        MEDIUM = 1024ull * (1024 * 1024),
+        LARGE = 2ull * 1024 * (1024 * 1024)
     };
 
     std::vector<int> array;
-    void generateArray(Size size);
-    static Size parseSize(const std::string& sizeStr) ;
-    void saveFile(const std::string& fileName, Size size) const;
-
-    static std::filesystem::path getProjectPath() ;
+    void generateArray(SIZE size);
+    static SIZE parseSize(const std::string& sizeStr);
+    void saveFile(const std::string& fileName, SIZE size) const;
 
 };
 
-#endif //GENERATOR_H
+#endif //CE2103_TAREA1_JOSEMANUELLORIA_GENERATOR_H

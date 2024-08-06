@@ -1,3 +1,3 @@
-/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir
-/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir
+/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles/rebuild_cache.dir

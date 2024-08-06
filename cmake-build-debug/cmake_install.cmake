@@ -1,4 +1,4 @@
-# Install script for directory: /home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/CE2103-Tarea1-JoseManuelLoria
+# Install script for directory: /home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

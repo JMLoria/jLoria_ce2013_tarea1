@@ -5,4 +5,6 @@ set(CMAKE_CXX_STANDARD 23)
 
 add_executable(CE2103_Tarea1_JoseManuelLoria main.cpp
         Generator.cpp
-        Generator.h)
+        Generator.h
+        Page.cpp
+        Page.h)

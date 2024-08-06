@@ -4,14 +4,13 @@
 Generator::Generator(const std::string& sizeStr, const std::string& fileName){
     std::srand(std::time(nullptr));
 
-    Size size = parseSize(sizeStr);
-
+    SIZE size = parseSize(sizeStr);
     generateArray(size);
-
     saveFile(fileName, size);
 }
 
-void Generator::generateArray(Generator::Size size){
+
+void Generator::generateArray(Generator::SIZE size){
     std::size_t numElements = size / sizeof(int);
 
     array.clear();
@@ -27,6 +26,7 @@ const std::vector<int>& Generator::getArray() const {
     return array;
 }
 
+
 void Generator::printArray() const {
     for (std::size_t i = 0; i < array.size(); ++i) {
         std::cout << array[i] << ", ";
@@ -37,27 +37,21 @@ void Generator::printArray() const {
 
 }
 
-void Generator::saveFile(const std::string &fileName, Size size) const {
-    std::filesystem::path proyectPath = getProjectPath();
 
-    std::string fileBin = fileName + ".bin";
+void Generator::saveFile(const std::string &fileName, SIZE size) const {
+    std::filesystem::path filePath = fileName;
+    std::ofstream file(filePath, std::ios::binary);
 
-    std::filesystem::path filePath = proyectPath / fileBin;
-
-    std::ofstream file(filePath);
     if (!file) {
         throw std::runtime_error("No se pudo abrir el archivo para escritura");
     }
 
-    std::size_t bytesWritten = 0;
-    for (std::size_t i = 0; i < array.size() && bytesWritten < size; i++) {
-        file << array[i];
-        bytesWritten += sizeof(array[i]);
-    }
+    file.write(reinterpret_cast<const char*>(array.data()), array.size() * sizeof(int));
     file.close();
 }
 
-Generator::Size Generator::parseSize(const std::string& sizeStr) {
+
+Generator::SIZE Generator::parseSize(const std::string& sizeStr) {
     if (sizeStr == "SMALL") {
         return SMALL;
     } else if (sizeStr == "MEDIUM") {
@@ -69,13 +63,19 @@ Generator::Size Generator::parseSize(const std::string& sizeStr) {
     }
 }
 
-std::filesystem::path Generator::getProjectPath() {
-    std::filesystem::path currentPath = std::filesystem::current_path();
-    while (currentPath.has_parent_path()) {
-        currentPath = currentPath.parent_path();
-        if (std::filesystem::exists(currentPath / "CMakeLists.txt")) {
-            return currentPath;
-        }
-    }
-    throw std::runtime_error("No se pudo encontrar la ruta del proyecto");
+
+int main(int argc, char *argv[]){
+    std::string sizeFile = argv[2];
+    std::string pathFile = argv[4];
+
+    std::cout << "Tarea Extraclase I - Arreglos Paginados \n";
+    std::cout << "Estudiante: Jose Manuel Loria Cordero \n";
+    std::cout << "Está ejecutando Generator.cpp \n";
+    std::cout << "Argumentos ingresados:\n";
+    std::cout << "\tSize:" << sizeFile << "\n";
+    std::cout << "\tOutput path:" << pathFile << "\n";
+
+    Generator generator(sizeFile, pathFile);
+
+    return 0;
 }
