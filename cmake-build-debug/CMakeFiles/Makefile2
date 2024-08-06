@@ -81,12 +81,12 @@ clean: CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/clean
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/build.make CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/build.make CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target CE2103_Tarea1_JoseManuelLoria"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5 "Built target CE2103_Tarea1_JoseManuelLoria"
 .PHONY : CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jose/Documents/TEC/II Semestre - 2024/CE2103 Datos II/Tareas/CE2103-Tarea1-JoseManuelLoria/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/CE2103_Tarea1_JoseManuelLoria.dir/rule

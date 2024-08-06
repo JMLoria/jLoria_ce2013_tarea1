@@ -9,4 +9,5 @@ add_executable(CE2103_Tarea1_JoseManuelLoria main.cpp
         Page.cpp
         Page.h
         PagedArray.cpp
-        PagedArray.h)
+        PagedArray.h
+        main.cpp)
