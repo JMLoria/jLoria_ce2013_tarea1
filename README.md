@@ -1,4 +1,4 @@
-# JLoria CE3201 Tarea Extraclase 1
+# JLoria CE2103 Tarea Extraclase 1
 Tarea Extraclase 1 - Arreglos Paginados
 
 Comandos para ejecutar las clases Generator y PagedArray
